@@ -22,3 +22,15 @@ h2 {
 .closed{
     display: none;
  }
+
+button {
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    transition-duration: 0.48965s;
+}
+
+button:hover {
+    background-color: white;
+    color : grey;
+}

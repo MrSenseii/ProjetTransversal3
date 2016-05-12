@@ -2,26 +2,26 @@ var chgtmdp = document.getElementById('chgtmdp');
 var gestiongrps = document.getElementById('gestiongrps');
 var gestioncapt = document.getElementById('gestioncapt');
 
-chgtmdp.addEventListener("mouseover", function(){
+chgtmdp.addEventListener("click", function(){
     document.getElementById('bla1').classList.toggle('closed');
 });
 
-chgtmdp.addEventListener("mouseout", function(){
+/*chgtmdp.addEventListener("mouseout", function(){
     document.getElementById('bla1').classList.toggle('closed');
-});
+});*/
 
-gestiongrps.addEventListener("mouseover", function(){
+gestiongrps.addEventListener("click", function(){
     document.getElementById('bla2').classList.toggle('closed');
 });
 
-gestiongrps.addEventListener("mouseout", function(){
+/*gestiongrps.addEventListener("mouseout", function(){
     document.getElementById('bla2').classList.toggle('closed');
-});
+});*/
 
-gestioncapt.addEventListener("mouseover", function(){
+gestioncapt.addEventListener("click", function(){
     document.getElementById('bla3').classList.toggle('closed');
 });
 
-gestioncapt.addEventListener("mouseout", function(){
+/*gestioncapt.addEventListener("mouseout", function(){
     document.getElementById('bla3').classList.toggle('closed');
-});
+});*/
