@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(43, 43, 43);
+    color : rgba(255, 255, 255, 1);
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2:hover {
+    color : #797979;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 10vh;
+    font-size: 3em;
+}
+
+.closed{
+    display: none;
+ }

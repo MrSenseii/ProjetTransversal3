@@ -4,6 +4,8 @@
 
 var button = document.getElementById("bouton");
 
+//var newpass = document.getElementById("mdpchang").value;
+
 
 var pass = "password";
 
@@ -12,6 +14,6 @@ button.addEventListener("click", function(event){
     if(document.getElementById("mdp").value == pass){
         document.location.href = "html/changemdp.html";
     } else {
-        console.log("poulet");
+        alert("Le mot de passe enregistré ne correspond pas. Veuillez réessayer");
     }
 })
