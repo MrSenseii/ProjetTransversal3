@@ -18,11 +18,9 @@ var port = 1883;
 var mqtt    = require('mqtt');
 var client  = mqtt.connect({host: host,port: port});
 
-//------------ CODE MQTT----------------//
-
 
 client.on('connect', function () {
-    client.subscribe('ingesupb2/michel');
+    client.subscribe('ingesupb2/#');
     client.publish('ingesupb2/michel', 'Bonsoir, C\'est Michel');
 });
 
