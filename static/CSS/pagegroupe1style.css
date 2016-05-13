@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(43, 43, 43);
+    color : rgba(255, 255, 255, 1);
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+#goback {
+    position: absolute;
+    top: 1vh;
+    right: 95vw;
+    font-size: 4em;
+
+}
+
+#goback:hover {
+    color : blue;
+    cursor: pointer;
+
+}
+
+canvas {
+    max-height: 500px;
+    max-width: 500px;
+
+}
+
+/*form {
+    margin-top: 35vh;
+    margin-left: 5vw;
+    margin-right:5vw;
+}
+
+button {
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    transition-duration: 0.48965s;
+}
+
+button:hover {
+    background-color: white;
+    color : grey;
+}
+
+input {
+    color : grey;
+}
+*/
+

@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(43, 43, 43);
+    color : rgba(255, 255, 255, 1);
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2:hover {
+    color : blue;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 10vh;
+    font-size: 3em;
+}
+
+#settings {
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    font-size: 4em;
+
+}
+
+#settings:hover {
+    color : blue;
+    cursor: pointer;
+
+}
+
+#goback {
+    position: absolute;
+    top: 1vh;
+    right: 95vw;
+    font-size: 4em;
+
+}
+
+#goback:hover {
+    color : blue;
+    cursor: pointer;
+
+}
+
+
+
+
